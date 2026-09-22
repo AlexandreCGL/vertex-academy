@@ -4,8 +4,8 @@ Plataforma de treinamento corporativo: trilhas de aprendizado organizadas em mó
 
 Projeto pessoal construído do zero como estudo de caso de uma plataforma real de e-learning corporativo. Os dados de demonstração (trilha, módulos, vídeos, questionário) são fictícios.
 
-**Demo:** _[link depois do deploy]_
-**Login de teste:** `aluno@demo.com` / senha a definir · admin: `admin@demo.com` / senha a definir
+**Demo:** https://vertex-academy-five.vercel.app/login
+**Login de teste:** `aluno@demo.com` / senha: aluno123 · admin: `admin@demo.com` / senha: admin123
 
 ## Funcionalidades
 
