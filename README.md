@@ -4,8 +4,14 @@ Plataforma de treinamento corporativo: trilhas de aprendizado organizadas em mó
 
 Projeto pessoal construído do zero como estudo de caso de uma plataforma real de e-learning corporativo. Os dados de demonstração (trilha, módulos, vídeos, questionário) são fictícios.
 
-**Demo:** _[link depois do deploy]_
-**Login de teste:** `aluno@demo.com` / senha a definir · admin: `admin@demo.com` / senha a definir
+**Demo:** [vertex-academy-five.vercel.app](https://vertex-academy-five.vercel.app)
+**Login de teste:** `aluno@demo.com` / `aluno123`
+_(o painel admin fica em `/admin` pra quem tiver perfil admin — credencial não publicada aqui pra evitar que os dados de demonstração sejam alterados)_
+
+<p align="center">
+  <img src=".github/screenshots/home.png" width="49%" alt="Tela inicial com panorama da trilha" />
+  <img src=".github/screenshots/modulos.png" width="49%" alt="Listagem de módulos da trilha" />
+</p>
 
 ## Funcionalidades
 
@@ -72,3 +78,8 @@ supabase/
   schema.sql        # tabelas, funções, triggers e políticas de RLS
   seed.sql          # dados de demonstração fictícios
 ```
+
+## Autor
+
+**Alexandre Galacho**
+[LinkedIn](https://www.linkedin.com/in/alexandre-galacho) · [GitHub](https://github.com/AlexandreCGL) · alexandrecardoso590@gmail.com

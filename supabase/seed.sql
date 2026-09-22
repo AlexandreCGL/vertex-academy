@@ -1,7 +1,7 @@
 -- Vertex Academy — dados de demonstração (fictícios)
 -- Rode DEPOIS do schema.sql, no mesmo projeto Supabase.
--- Os vídeos usados são curtas-metragens open source do Blender Foundation
--- (Big Buck Bunny, Sintel, Tears of Steel — Creative Commons, livres pra embed).
+-- Os vídeos usados são vídeos públicos do YouTube escolhidos pelo tema de
+-- cada aula (onboarding, produtividade, segurança da informação).
 
 insert into public.trilhas (id, nome, descricao) values
   ('11111111-1111-1111-1111-111111111111', 'Integração', 'Trilha de boas-vindas pra quem está chegando na empresa');
@@ -12,12 +12,12 @@ insert into public.modulos (id, trilha_id, titulo, ordem) values
   ('22222222-2222-2222-2222-222222222223', '11111111-1111-1111-1111-111111111111', '3 - Segurança da informação', 3);
 
 insert into public.aulas (id, modulo_id, titulo, ordem, youtube_url, duracao_min) values
-  ('33333333-0000-0000-0000-000000000001', '22222222-2222-2222-2222-222222222221', '1.1 Nossa história e cultura', 1, 'https://www.youtube.com/watch?v=aqz-KE-bpKQ', 10),
-  ('33333333-0000-0000-0000-000000000002', '22222222-2222-2222-2222-222222222221', '1.2 Como funciona o seu time', 2, 'https://www.youtube.com/watch?v=eRsGyueVLvQ', 14),
-  ('33333333-0000-0000-0000-000000000003', '22222222-2222-2222-2222-222222222222', '2.1 E-mail e agenda', 1, 'https://www.youtube.com/watch?v=aqz-KE-bpKQ', 8),
-  ('33333333-0000-0000-0000-000000000004', '22222222-2222-2222-2222-222222222222', '2.2 Gestão de tarefas', 2, 'https://www.youtube.com/watch?v=R6MlUcmOul8', 12),
-  ('33333333-0000-0000-0000-000000000005', '22222222-2222-2222-2222-222222222223', '3.1 Boas práticas de senha', 1, 'https://www.youtube.com/watch?v=eRsGyueVLvQ', 9),
-  ('33333333-0000-0000-0000-000000000006', '22222222-2222-2222-2222-222222222223', '3.2 Reconhecendo phishing', 2, 'https://www.youtube.com/watch?v=R6MlUcmOul8', 11);
+  ('33333333-0000-0000-0000-000000000001', '22222222-2222-2222-2222-222222222221', '1.1 Nossa história e cultura', 1, 'https://www.youtube.com/watch?v=FSUnGn_SEF4', 10),
+  ('33333333-0000-0000-0000-000000000002', '22222222-2222-2222-2222-222222222221', '1.2 Como funciona o seu time', 2, 'https://www.youtube.com/watch?v=oJSYo2RhqMw', 8),
+  ('33333333-0000-0000-0000-000000000003', '22222222-2222-2222-2222-222222222222', '2.1 E-mail e agenda', 1, 'https://www.youtube.com/watch?v=JArW-bzjDFg', 9),
+  ('33333333-0000-0000-0000-000000000004', '22222222-2222-2222-2222-222222222222', '2.2 Gestão de tarefas', 2, 'https://www.youtube.com/watch?v=BJAFl2dsyrI', 7),
+  ('33333333-0000-0000-0000-000000000005', '22222222-2222-2222-2222-222222222223', '3.1 Boas práticas de senha', 1, 'https://www.youtube.com/watch?v=zefv-bNtZwg', 6),
+  ('33333333-0000-0000-0000-000000000006', '22222222-2222-2222-2222-222222222223', '3.2 Reconhecendo phishing', 2, 'https://www.youtube.com/watch?v=g3nmGDprR3w', 8);
 
 insert into public.questionarios (id, tipo, modulo_id, titulo, nota_minima) values
   ('44444444-0000-0000-0000-000000000001', 'modulo', '22222222-2222-2222-2222-222222222223', 'Quiz: Segurança da informação', 70);
